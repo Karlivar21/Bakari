@@ -13,6 +13,7 @@ const Runstykki= () => {
     <div className="container_rúnstykki">
       <div className="vara-header_runstk">
         <h1>Rúnstykki</h1>
+        <p>Rúnstykkin okkar eru öll bökuð ný alla morgna</p>
       </div>
       <ul className="vara-list_runstk">
         {runstykkilist.items.map((braud) => (

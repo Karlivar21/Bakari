@@ -3,7 +3,6 @@ import "./styles.css";
 
 export const Footer = () => {
     return (
-        <div className="footer">
             <div className="footer__container">
                 <div className="footer__container__left">
                     <div className="footer__container__left__text">
@@ -14,9 +13,16 @@ export const Footer = () => {
                         <img src="https://img.icons8.com/fluent/48/000000/instagram-new.png"/>
                     </div>
                 </div>
+                <div className="footer__container__middle">
+                    <div className="footer__container__middle__text">
+                        <h1>OPNUNARTÍMAR</h1>
+                        <p>Mánudaga - Föstudaga: 07:00 - 17:30</p>
+                        <p>Laugardaga - Sunnudaga: 08:00 - 16:00</p>
+                    </div>
+                </div>
                 <div className="footer__container__right">
                     <div className="footer__container__right__text">
-                        <h1>Hafðu samband</h1>
+                        <h1>HAFÐU SAMBAND</h1>
                     </div>
                     <div className="footer__container__right__icons">
                         <p>Símanúmer: 431-1644</p>
@@ -26,7 +32,6 @@ export const Footer = () => {
                     </div>
                 </div>
             </div>
-        </div>
     );
 
 };

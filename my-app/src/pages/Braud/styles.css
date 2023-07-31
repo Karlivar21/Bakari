@@ -1,29 +1,45 @@
 .container {
+    display: flex;
+    flex-direction: column;
     background-image: url('../../resources/Coverbraud.JPG');
-    background-color: #cccccc;
     background-size: contain;
-    background-position: center;
-    justify-content: center;
+    align-items: center;
 }
 
 .vara-header{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgb(255, 255, 255);
+    background-color: black;
+    margin-top: 30px;
+    margin-left: 40px;
+    width: 60%;
+    height: 150px;
+    border: 5px solid rgb(255, 255, 255);
 }
+
 .vara-header h1 {
-    font-size: 50px;
-    color: rgb(0, 0, 0);
+    font-size: 40px;
+    color: rgb(255, 255, 255);
     text-align: center;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Cinzel', 'serif';
+    font-weight: 100;
+    padding: 0;
+}
+
+.vara-header p {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-family: 'Cinzel', 'serif';
     margin: 0;
     padding: 0;
 }
+
 .vara-list {
     display: flex;
     flex-direction: column;
-    width: auto;
-    justify-content: center;
     align-items: center;
+    width: 100%;
+    height: 100%;
 }

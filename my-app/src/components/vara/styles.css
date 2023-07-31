@@ -1,36 +1,43 @@
 .vara {
     display: flex;
     flex-direction: row;
-    width: 850px;
-    height: 200px;
-    border: 5px solid rgb(138, 98, 98);
-    border-radius: 5px;
-    margin: 10px;
-    background-color: antiquewhite;
-    padding: 40px;
+    width: 60%;
+    height: 30%;
+    border: 5px solid rgb(255, 255, 255);
+    margin-bottom: 30px;
+    background-color: rgb(0, 0, 0);
 }
 
 
 .vara-info {
     display: flex;
     flex-direction: column;
-    background-color: antiquewhite;
     margin-left: 100px;
 }
 
 .vara-info h3 {
     font-size: 30px;
-    font-family: 'monteserrat', sans-serif;
-    color: rgb(138, 98, 98);
-    margin: 0;
+    font-family: 'Cinzel', 'serif';
+    font-weight: 100;
+    color: rgb(255, 255, 255);
+    margin-top: 30px;
     padding: 0;
 }
 
+.vara-info p {
+    font-size: 20px;
+    font-family: 'Cinzel', 'serif';
+    color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+}
 
 .vara-image img {
     width: 200px;
     height: 200px;
     object-fit: cover;
-    border-radius: 5px;
     margin-left: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 5px solid rgb(255, 255, 255);
 }

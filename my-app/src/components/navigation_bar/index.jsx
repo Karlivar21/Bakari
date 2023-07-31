@@ -13,7 +13,7 @@ export const NavigationBar = () => {
       <ul className="navigation-links">
         <NavigationLink title="Forsíða" href="/"/>
         <div className="navigation-menu">
-          <button className="navigation-menu__button"> Vörur <i className="fa fa-caret-down"/></button>
+          <button className="navigation-menu__button"> Vörur <i className="fa fa-caret-down" aria-hidden="true"/></button>
           <ul className="navigation-menu__content">
             <NavigationLink title="Brauð" href="/braud"/>
             <NavigationLink title="Rúnstykki" href="/runstykki"/>
@@ -22,8 +22,10 @@ export const NavigationBar = () => {
         </div>
         <NavigationLink title="Kökur" href="/kokur" />
         <NavigationLink title="Panta" href="/pantanir"/>
+        <div className="navigation-menu-2">
         <NavigationLink title="Hafa samband" href="/hafa-samband"/>
         <NavigationLink title="Um okkur" href="/umokkur"/>
+        </div>
       </ul>
     </nav>
   );

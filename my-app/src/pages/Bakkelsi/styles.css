@@ -1,24 +1,39 @@
 .container_bakkelsi {
-    background-image: url('../../resources/bakkelsicover.jpeg');
-    background-color: #cccccc;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    background-image: url('../../resources/Coverbraud.JPG');
+    background-size: contain;
     align-items: center;
 }
 
 .vara-header_bakkelsi{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgb(255, 255, 255);
+    background-color: black;
+    margin-top: 30px;
+    margin-left: 40px;
+    width: 60%;
+    height: 150px;
+    border: 5px solid rgb(255, 255, 255);
 }
-.vara-header_bakkelsi h1 {
-    font-size: 50px;
-    color: rgb(0, 0, 0);
+.vara-header_bakkelsi p {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
     text-align: center;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Cinzel', 'serif';
+    font-weight: 100;
+    margin: 0;
+    padding: 0;
+}
+
+.vara-header_bakkelsi h1 {
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: 'Cinzel', 'serif';
+    font-weight: 100;
     margin: 0;
     padding: 0;
 }

@@ -143,7 +143,7 @@ export const Pontun = () => {
                                 </div>
                                 {item.fillings && (
                                   <div className="fillings_container">
-                                    <h3>Fyllingar:</h3>
+                                    <label htmlFor={`fillings-${item.id}`}>Fylling:</label>
                                     <select
                                         id = {`fillings-${item.id}`}
                                         onChange={(event) => handleFillingChange(event, item.id)}

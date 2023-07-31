@@ -1,12 +1,11 @@
 .coverpage {
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
     background-color: #cccc;
 }
 
 .cover-photo {
     display: flex;
-    margin: 10px;
 }
 
 .cover-photo img{
@@ -17,20 +16,21 @@
 
 .cover-text {
     position: absolute;
-    width: 500px;
+    width: 900px;
     height: 500px;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.7);
     top : 60%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-.cover-text h1 {
+.cover-text h2 {
     color: white;
     font-size: 50px;
     text-align: center;
-    opacity: 1;
-    margin: 0;
+    font-weight: 100;
+    font-family: 'Cinzel', 'serif';
+    margin-top: 50px;
     padding: 0;
 }
 
@@ -38,6 +38,7 @@
     color: white;
     font-size: 20px;
     text-align: center;
+    font-family: 'Cinzel', 'serif';
     margin: 0;
     padding: 0;
 }

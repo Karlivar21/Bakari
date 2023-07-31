@@ -1,24 +1,29 @@
 .container_kokur {
-    background-image: url('../../resources/testbackground.jpeg');
-    background-color: #cccccc;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    background-image: url('../../resources/Coverbraud.JPG');
+    background-size: contain;
     align-items: center;
 }
 
 .vara-header_kokur{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgb(255, 255, 255);
+    background-color: black;
+    margin-top: 30px;
+    margin-left: 40px;
+    width: 60%;
+    height: 150px;
+    border: 5px solid rgb(255, 255, 255);
 }
 .vara-header_kokur h1 {
     font-size: 50px;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     text-align: center;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Cinzel', 'serif';
+    font-weight: 100;
     margin: 0;
     padding: 0;
 }

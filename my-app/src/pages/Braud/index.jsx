@@ -13,6 +13,7 @@ const Braud = () => {
     <div className="container">
       <div className="vara-header">
         <h1>Brauð</h1>
+        <p>Brauðin okkar eru öll bökuð ný alla morgna</p>
       </div>
       <ul className="vara-list">
         {braudlist.items.map((braud) => (

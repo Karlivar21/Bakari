@@ -3,8 +3,26 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    background-image: url('../../resources/testbackground.jpeg');
+    background-image: url('../../resources/lolbackground2.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
     height: 100vh;
+}
+
+.hafa-samband__form__header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    height: 30%;
+}
+
+.hafa-samband__form__header h1 {
+    font-size: 3rem;
+    font-family: 'Cinzel', serif;
+    font-weight: 100;
+    color: #ffffff;
 }
 
 .hafa-samband__contact {
@@ -18,7 +36,7 @@
 
 .hafa-samband__contact p {
     font-size: 1.5rem;
-    font-family: 'monteserrat', sans-serif;
+    font-family: 'Cinzel', serif;
     color: #ffffff;
 }
 
@@ -26,10 +44,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     width: 40%;
-    height: 70%;
-    background-color: #9d9090;
+    height: 80%;
+    background-color: #2f2e2e;
     border-radius: 10px;
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
 }
@@ -38,6 +55,94 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 80%;
+    width: 100%;
     height: 80%;
 }
+
+.hafa-samband__form__name {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.hafa-samband__form__name input {
+    width: 50%;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.hafa-samband__form__email {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.hafa-samband__form__email input {
+    width: 50%;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.hafa-samband__form__phone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.hafa-samband__form__phone input {
+    width: 50%;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.hafa-samband__form__subject {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.hafa-samband__form__subject textarea {
+    width: 50%;
+    height: 100px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.send_button {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.send_button button {
+    width: 200px;
+    height: 50px;
+    background-color: #3ff044;
+    color: white;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    border-radius: 5px;
+}
+
+
