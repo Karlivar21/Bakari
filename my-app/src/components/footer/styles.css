@@ -32,6 +32,15 @@
     margin: 10px;
 }
 
+.footer__container__left__icons img {
+    width: 52px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 100%;
+    padding: 1px;
+    background-color: white;
+}
+
 .footer__container__middle {
     display: flex;
     flex-direction: column;

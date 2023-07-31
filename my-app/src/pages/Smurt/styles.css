@@ -1,4 +1,4 @@
-.container_rúnstykki {
+.container_smurt {
     display: flex;
     flex-direction: column;
     background-image: url('../../resources/testbackground.jpeg');
@@ -6,7 +6,7 @@
     align-items: center;
 }
 
-.vara-header_runstk{
+.vara-header_smurt{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -18,7 +18,7 @@
     height: 150px;
     border: 5px solid rgb(255, 255, 255);
 }
-.vara-header_runstk h1 {
+.vara-header_smurt h1 {
     font-size: 40px;
     color: rgb(255, 255, 255);
     text-align: center;
@@ -27,7 +27,7 @@
     padding: 0;
 }
 
-.vara-header_runstk p {
+.vara-header_smurt p {
     font-size: 20px;
     color: rgb(255, 255, 255);
     font-family: 'Cinzel', 'serif';
@@ -35,7 +35,7 @@
     padding: 0;
 }
 
-.vara-list_runstk {
+.vara-list_smurt {
     display: flex;
     flex-direction: column;
     align-items: center;

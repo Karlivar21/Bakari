@@ -1,4 +1,6 @@
 import React from "react";
+import instagram from "../../resources/instagram.png";
+import facebook from "../../resources/facebook.png";
 import "./styles.css";
 
 export const Footer = () => {
@@ -9,9 +11,13 @@ export const Footer = () => {
                         <p>Heimasíða okkar er enn í vinnslu, en þú getur skoðað okkur á Facebook og Instagram.</p>
                     </div>
                     <div className="footer__container__left__icons">
-                        <img src="https://img.icons8.com/fluent/48/000000/facebook-new.png"/>
-                        <img src="https://img.icons8.com/fluent/48/000000/instagram-new.png"/>
-                    </div>
+                    <a href="https://www.facebook.com/kallabakari" target="_blank" rel="noopener noreferrer">
+                        <img src={facebook} alt="facebook" />
+                    </a>
+                    <a href="https://www.instagram.com/kallabakari" target="_blank" rel="noopener noreferrer">
+                        <img src={instagram} alt="instagram" />
+                    </a>
+                </div>
                 </div>
                 <div className="footer__container__middle">
                     <div className="footer__container__middle__text">
