@@ -1,0 +1,41 @@
+{
+    "items": [
+      {
+        "id": "1",
+        "name": "Eplakaka",
+        "images": "eplakaka.jpeg",
+        "description": "Description of Kaka 1"
+      },
+      {
+        "id": "2",
+        "name": "Gulrótarkaka",
+        "images": "gulrotar.jpeg",
+        "description": "Description of Kaka 2"
+      },
+      {
+        "id": "3",
+        "name": "Möndlukaka",
+        "images": "mondlukaka.jpeg",
+        "description": "Description of Kaka 3"
+      },
+      {
+          "id": "4",
+          "name": "Stillholtskaka",
+          "images": "stillholts.jpeg",
+          "description": "Description of Kaka 4"
+      },
+      {
+          "id": "5",
+          "name": "Súkkulaðibomba með smarties",
+          "images": "sukkbomba_med_smarties.jpeg",
+          "description": "Description of Kaka 5"
+      },
+      {
+          "id": "6",
+          "name": "Vanilluterta",
+          "images": "vanilluterta.jpeg",
+          "description": "Description of Kaka 6"
+      }
+    ]
+  }
+  

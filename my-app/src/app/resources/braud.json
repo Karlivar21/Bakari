@@ -1,0 +1,82 @@
+{
+  "items": [
+    {
+      "id": "1",
+      "name": "Þriggjakorna súrdeigsbrauð",
+      "images": "Braud1.JPG",
+      "description": "Description of Brauð 1"
+    },
+    {
+      "id": "2",
+      "name": "Munkabrauð",
+      "images": "Braud2.JPG",
+      "description": "Description of Brauð 2"
+    },
+    {
+      "id": "3",
+      "name": "Fjallabrauð",
+      "images": "Braud3.JPG",
+      "description": "Description of Item 3"
+    },
+    {
+        "id": "4",
+        "name": "Heilkornabrauð",
+        "images": "heilkorna.JPG",
+        "description": "Description of Item 4"
+    },
+    {
+        "id": "5",
+        "name": "Múslíbrauð",
+        "images": "múslíbrauð.JPG",
+        "description": "Description of Item 5"
+    },
+    {
+        "id": "6",
+        "name": "Ólífubrauð",
+        "images": "olifubraud.JPG",
+        "description": "Description of Item 6"
+    },
+    {
+        "id": "7",
+        "name": "Picandobrauð",
+        "images": "picando.JPG",
+        "description": "Description of Item 7"
+    },
+    {
+        "id": "8",
+        "name": "Snittubrauð",
+        "images": "snittubraud.JPG",
+        "description": "Description of Item 8"
+    },
+    {
+        "id": "9",
+        "name": "Sólkjarnabrauð",
+        "images": "sólkjarnabraud.JPG",
+        "description": "Description of Item 9"
+    },
+    {
+        "id": "10",
+        "name": "Berlínar Súrdeigsbrauð",
+        "images": "súrdeig.JPG",
+        "description": "Description of Item 10"
+    },
+    {
+        "id": "11",
+        "name": "Chia Súrdeigsbrauð",
+        "images": "súrdeig2.JPG",
+        "description": "Description of Item 11"
+    },
+    {
+        "id": "12",
+        "name": "Sveitabrauð",
+        "images": "sveitabrauð.JPG",
+        "description": "Description of Item 12"
+    },
+    {
+        "id": "13",
+        "name": "Þriggjakornabrauð",
+        "images": "Þriggjakorna.JPG",
+        "description": "Description of Item 13"
+    }
+  ]
+}

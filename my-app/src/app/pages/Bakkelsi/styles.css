@@ -1,0 +1,32 @@
+.container_bakkelsi {
+    background-image: url('../../resources/bakkelsicover.jpeg');
+    background-color: #cccccc;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.vara-header_bakkelsi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+.vara-header_bakkelsi h1 {
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.vara-list_bakkelsi {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+}

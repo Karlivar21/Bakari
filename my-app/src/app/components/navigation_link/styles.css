@@ -1,0 +1,30 @@
+.navigation-link {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navigation-link a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+    font-family: 'monteserrat', sans-serif;
+    padding: 10px;
+  }
+
+.navigation-link a:hover {
+    color:  #f1b143;
+}
+
+.navigation-link__button {
+    background-color: #40b6e9;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+
+

@@ -1,0 +1,38 @@
+.footer {
+    background-color: #222;
+    color:  #fff;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.footer__container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.footer__container__left {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__container__right {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+

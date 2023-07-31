@@ -1,0 +1,65 @@
+{
+    "items": [
+      {
+        "id": "1",
+        "name": "Cinnabon",
+        "images": "cinnabon.jpeg",
+        "description": "Description of Bakkelsi 1"
+      },
+      {
+        "id": "2",
+        "name": "Donuts",
+        "images": "dontusmynd.JPG",
+        "description": "Description of Bakkelsi 2"
+      },
+      {
+        "id": "3",
+        "name": "Kanilhringur",
+        "images": "kanilhringur.jpeg",
+        "description": "Description of Bakkelsi 3"
+      },
+      {
+        "id": "4",
+        "name": "Kleina",
+        "images": "kleinur.jpeg",
+        "description": "Description of Bakkelsi 5"
+     },
+      {
+          "id": "5",
+          "name": "Langijón",
+          "images": "langijón.jpeg",
+          "description": "Description of Bakkelsi 4"
+      },
+      {
+        "id": "6",
+        "name": "Múnsnúður",
+        "images": "munsnudur.jpeg",
+        "description": "Description of Bakkelsi 5"
+    },
+    {
+        "id": "7",
+        "name": "Sérbakað vínarbrauð",
+        "images": "serbakað.jpeg",
+        "description": "Description of Bakkelsi 6"
+    },
+    {
+        "id": "8",
+        "name": "Smjörkaka",
+        "images": "smjorkaka.jpeg",
+        "description": "Description of Bakkelsi 6"
+    },
+    {
+        "id": "9",
+        "name": "Snúður",
+        "images": "snudar.jpeg",
+        "description": "Description of Bakkelsi 7"
+    },
+    {
+        "id": "10",
+        "name": "Vínarbrauð",
+        "images": "vinarbraud.jpeg",
+        "description": "Description of Bakkelsi 8"
+    }
+    ]
+  }
+  

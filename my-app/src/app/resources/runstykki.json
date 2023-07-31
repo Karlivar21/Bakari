@@ -1,0 +1,66 @@
+{
+    "items": [
+      {
+        "id": "1",
+        "name": "Fín rúnstykki",
+        "images": "fínt_rúnstk.JPG",
+        "description": "Description of Rúnstykki 1"
+      },
+      {
+        "id": "2",
+        "name": "Fjölkorna rúnstykki",
+        "images": "fjolkornarunstk.JPG",
+        "description": "Description of Rúnstykki 2"
+      },
+      {
+        "id": "3",
+        "name": "Heilhveitihorn",
+        "images": "heilhveitihorn.JPG",
+        "description": "Description of Rúnstykki 3"
+      },
+      {
+        "id": "4",
+        "name": "Karrýbolla",
+        "images": "karrýbolla.jpeg",
+        "description": "Description of Rúnstykki 5"
+     },
+      {
+          "id": "5",
+          "name": "Kjallarabolla",
+          "images": "kjallarabolla.JPG",
+          "description": "Description of Rúnstykki 4"
+      },
+      {
+        "id": "6",
+        "name": "Kringla",
+        "images": "kringla.JPG",
+        "description": "Description of Rúnstykki 5"
+    },
+     
+    {
+        "id": "7",
+        "name": "Múslíbolla",
+        "images": "muslibolla.jpeg",
+        "description": "Description of Rúnstykki 6"
+    },
+    {
+        "id": "8",
+        "name": "Ostabolla",
+        "images": "ostabolla.JPG",
+        "description": "Description of Rúnstykki 6"
+    },
+    {
+        "id": "9",
+        "name": "Sýslumannsbolla",
+        "images": "sýslumanns.JPG",
+        "description": "Description of Rúnstykkir 7"
+    },
+    {
+        "id": "10",
+        "name": "Ölfusbolla",
+        "images": "olfusbolla.JPG",
+        "description": "Description of Rúnstykki 5"
+    }
+    ]
+  }
+  
