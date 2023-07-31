@@ -1,6 +1,6 @@
 .coverpage {
     display: grid;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     background-color: #cccc;
 }
 
@@ -55,4 +55,29 @@
     width: 100%;
     object-fit: cover;
     margin: 30px;
+}
+
+.oppnunartímar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #000000;
+    height: 100px;
+    margin: 10px;
+}
+
+.oppnunartímar h2 {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.oppnunartímar p {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
 }

@@ -5,6 +5,7 @@ import Pantanir from "./Pantanir";
 import Runstykki from "./Runstykki";
 import Bakkelsi from "./Bakkelsi";
 import Kokur from "./Kokur";
+import HafaSamband from "./Hafa_samband";
 import React from "react";
 
 const pagesData: routerType[] = [
@@ -27,6 +28,11 @@ const pagesData: routerType[] = [
     path: "umokkur",
     element: <div>um okkur</div>,
     title: "um okkur"
+  },
+  {
+    path: "hafa-samband",
+    element: <HafaSamband/>,
+    title: "samband"
   },
   {
     path: "pantanir",

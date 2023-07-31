@@ -7,7 +7,6 @@ export const Footer = () => {
             <div className="footer__container">
                 <div className="footer__container__left">
                     <div className="footer__container__left__text">
-                        <h1>Heimasíða</h1>
                         <p>Heimasíða okkar er enn í vinnslu, en þú getur skoðað okkur á Facebook og Instagram.</p>
                     </div>
                     <div className="footer__container__left__icons">
@@ -20,11 +19,9 @@ export const Footer = () => {
                         <h1>Hafðu samband</h1>
                     </div>
                     <div className="footer__container__right__icons">
-                        <img src="https://img.icons8.com/fluent/48/000000/phone.png"/>
                         <p>Símanúmer: 431-1644</p>
                     </div>
                     <div className="footer__container__right__icons">
-                        <img src="https://img.icons8.com/fluent/48/000000/email.png"/>
                         <p>Netfang: kallabakari67@gmail.com</p>
                     </div>
                 </div>

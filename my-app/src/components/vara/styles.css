@@ -1,19 +1,27 @@
 .vara {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 350px;
-    height: 300px;
-    border: 5px solid black;
+    flex-direction: row;
+    width: 850px;
+    height: 200px;
+    border: 5px solid rgb(138, 98, 98);
     border-radius: 5px;
     margin: 10px;
     background-color: antiquewhite;
+    padding: 40px;
 }
 
-.vara h3 {
+
+.vara-info {
+    display: flex;
+    flex-direction: column;
+    background-color: antiquewhite;
+    margin-left: 100px;
+}
+
+.vara-info h3 {
     font-size: 30px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'monteserrat', sans-serif;
+    color: rgb(138, 98, 98);
     margin: 0;
     padding: 0;
 }
@@ -24,4 +32,5 @@
     height: 200px;
     object-fit: cover;
     border-radius: 5px;
+    margin-left: 50px;
 }

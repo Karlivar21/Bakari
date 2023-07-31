@@ -2,10 +2,8 @@
     background-image: url('../../resources/Coverbraud.JPG');
     background-color: #cccccc;
     background-size: contain;
-    background-repeat: no-repeat;
     background-position: center;
     justify-content: center;
-    align-items: center;
 }
 
 .vara-header{
@@ -24,8 +22,7 @@
 }
 .vara-list {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column;
     width: auto;
     justify-content: center;
     align-items: center;
