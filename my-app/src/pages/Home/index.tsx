@@ -1,7 +1,5 @@
 import React from "react";
 import covermynd from "../../resources/covermynd.jpg";
-import kokur from "../../resources/kokur.jpg";
-import Divider from "@material-ui/core/Divider";
 import { NavigationLink } from "../../components/navigation_link";
 import "./styles.css";
 import { useHref } from "react-router-dom";
@@ -12,7 +10,9 @@ const Home = () => {
             <div className="cover-text">
                 <h2>KALLABAKARÍ</h2>
                 <p>Velkomin á vefsíðuna okkar</p>
-                <p>Við bjóðum upp á kökur, tertur, brauð og fleira</p>
+                <p>Kallabakarí er handverksbakarí þar sem allt er frá grunni. Okkar áherslur eru mikið úrval af gæðavörum þar sem blandað er saman gömlu 
+                    góðu bakkelsi og ferskum nýjungum. Hjá okkur er gott að setjast niður í björtu og fallegu umhverfi þar sem allir geta fundið sér eitthvað við hæfi.</p>
+               
             </div>
             <div className="súpuplan">
                 <h2>Súpuplan</h2>

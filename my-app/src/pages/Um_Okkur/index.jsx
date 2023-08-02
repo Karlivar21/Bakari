@@ -9,10 +9,9 @@ export const UmOkkur = () => {
                         <h1>Fyrirtækið Okkar</h1>
                     </div>
                     <div className="um-okkur__left__text">
-                        <p>Fyrirtækið var fyrst stofnað 1967 af Alfred Heineche og var þá við suðurgötu 15
-                            á Akranesi. Síðar tók sonur hans, Karl Óskar Alfredsson og kona hans, Halldóra og ráku þau fyrirtækið
-                            fram árið 2017. Þá fluttu þau fyrirtækið í nýja byggingu á Innnesveg 1. Þar er fyrirtækið enn í dag.
-                            En í dag rekur Alfreð Freyr Karlsson fyrirtækið með konu sinni, Valdísi Kvaran. Þau tóku við fyrirtækinu árið 2018.
+                        <p>Kallabakarí sem áður hét Brauða og kökugerðin og var staðsett á suðurgötunni á Akranesi er rúmlega 50 ára gamalt fyrirtæki
+                            Stofnað árið 1967 af Alfreð Franz Karlssyni. Núverandi eigendur eru þau Alfreð Frey Karlsson og Valdís Kvaran fluttu bakaríið árið 2018
+                            á núverandi stað að Innnesvegi 1 og reka þau fyrirtækið með dyggri aðstoð strákana sinna, þeirra Almars Geirs, Karls Ívars og Daða Más.
                         </p>
                     </div>
                 </div>

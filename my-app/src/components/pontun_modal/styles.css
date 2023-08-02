@@ -1,0 +1,346 @@
+/* Modal container */
+.modal {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    border: 2px solid white;
+    width: 65%;
+    margin-top: 5%;
+    margin-left: 17.5%;
+    height: 83%;
+  }
+
+  .white_line {
+    width: 90%;
+    height: 0.6px;
+    background-color: white;
+    margin-left: 10%;
+    }
+  
+    /* Modal header */
+    .modal-header {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        border: none;
+    } 
+
+    .modal-header h1 {
+        color: white;
+        font-family: 'Cinzel', serif;
+        font-size: 30px;
+        font-weight: 50;
+        margin-left: 30%;
+        margin-right: 50px;
+        text-transform: uppercase;
+    }
+    .modal-body {
+        width: 90%;
+        height: 100%;
+        margin-right: 5%;
+        margin-left: 5%;
+        border-top: 0.6px solid white;
+    }
+    
+    .form_container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 100%;
+    }
+
+    .left_container_form {
+        display: flex;
+        width: 50%;
+        flex-direction: column;
+        border-right: 0.6px solid white;
+        border-bottom: 0.6px solid white;
+    }
+
+    .right_container_form {
+        display: flex;
+        width: 50%;
+        flex-direction: column;
+        align-items: center;
+        border-bottom: 0.6px solid white;
+    }
+
+    .cake_version_container 
+    {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 10px;
+        margin-left: 20%;
+    }
+
+    .cake_version_container label
+    {
+        color: white;
+        font-family: 'Cinzel', serif;
+        font-size: 20px;
+        text-transform: uppercase;
+    }
+
+    .cake_version_container select {
+        width: 90%;
+        height: 50px;
+        margin-bottom: 10px;
+        border: none;
+        font-family: 'Cinzel', serif;
+        font-size: 20px;
+    }
+
+    
+
+  
+  /* Modal close button */
+  .close-modal {
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid rgb(146, 144, 144);
+    height: 90%;
+    width: 3%;
+    color: rgb(146, 144, 144);
+    font-family: 'Cinzel', serif;
+    font-size: 24px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-bottom: 10px;
+  }
+  /* Label */
+  .form-group label {
+    color: white;
+    font-family: 'Cinzel', serif;
+    font-size: 20px;
+    text-transform: uppercase;
+  }
+
+  .form-group input {
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-radius: 0px;
+    margin-bottom: 10px;
+  }
+
+  .form-group-date {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-bottom: 10px;
+  }
+
+    .form-group-date label {
+        color: white;
+        font-family: 'Cinzel', serif;
+        font-size: 20px;
+        text-transform: uppercase;
+    }
+
+    .form-group-date input {
+        width: 50%;
+        height: 50px;
+        border: none;
+        border-radius: 0px;
+        margin-bottom: 10px;
+    }
+
+  label {
+    color: white;
+    font-family: 'Cinzel', serif;
+    font-size: 20px;
+  }
+
+  .athugasemdir_input {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 10px;
+    margin-left: 20%;
+  }
+
+  .athugasemdir_input label
+    {
+        color: white;
+        font-family: 'Cinzel', serif;
+        font-size: 20px;
+        text-transform: uppercase;
+    }
+
+  .athugasemdir_input textarea {
+    width: 90%;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+
+  .cake_container_form {
+    display: flex;
+    width: 100%;
+    margin-bottom: 10px;
+    margin-left: 20%;
+  }
+
+  .cake_container_form h3 {
+    color: white;
+    font-family: 'Cinzel', serif;
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-left: 30%;
+    margin-top: 3%;
+    margin-bottom: 37%;
+  }
+  
+
+  .tegund_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .tegund_container h2 {
+    color: white;
+    font-family: 'Cinzel', serif;
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-right: 10px;
+  }
+
+  .size_container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .size_container label {
+    color: white;
+    font-family: 'Cinzel', serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-top: 3%;
+    margin-right: 20%;
+  }
+
+  .size_container select {
+    width: 50%;
+    height: 50px;
+    margin-bottom: 10px;
+    border: none;
+    font-family: 'Cinzel', serif;
+    font-size: 20px;
+  }
+
+  .fillings_container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+    .fillings_container label {
+        color: white;
+        font-family: 'Cinzel', serif;
+        font-size: 20px;
+        margin-right: 16%;
+        margin-top: 2%;
+        text-transform: uppercase;
+    }
+
+    .fillings_container select {
+        width: 50%;
+        height: 50px;
+        margin-bottom: 10px;
+        border: none;
+        font-family: 'Cinzel', serif;
+        font-size: 20px;
+    }
+
+  .botnar_container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+    .botnar_container label {
+        color: white;
+        font-family: 'Cinzel', serif;
+        font-size: 20px;
+        margin-right: 24%;
+        margin-top: 2%;
+        text-transform: uppercase;
+    }
+
+    .botnar_container select {
+        width: 50%;
+        height: 50px;
+        margin-bottom: 10px;
+        border: none;
+        font-family: 'Cinzel', serif;
+        font-size: 20px;
+    }
+
+
+  .smjorkrems_container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+    .smjorkrems_container label {
+        color: white;
+        font-family: 'Cinzel', serif;
+        font-size: 20px;
+        margin-right: 6%;
+        margin-top: 2%;
+        text-transform: uppercase;
+    }
+
+    .smjorkrems_container select {
+        width: 50%;
+        height: 50px;
+        margin-bottom: 10px;
+        border: none;
+        font-family: 'Cinzel', serif;
+        font-size: 20px;
+    }
+
+    .submit_container {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        margin-top: 3%;
+    }
+
+    .submit_container input {
+        width: 40%;
+        height: 50px;
+        border: none;
+        border-radius: 0px;
+        margin-bottom: 10px;
+        color: white;
+        background-color: rgb(194, 153, 121, 100);
+        border: 1px solid white;
+        font-family: 'Cinzel', serif;
+        font-size: 20px;
+        text-transform: uppercase;
+        font-weight: 100;
+    }
+  

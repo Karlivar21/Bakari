@@ -2,9 +2,10 @@ import React, { useRef }  from "react";
 import { useState } from "react";
 import "./styles.css";
 import jsondata from "../../resources/kokur.json";
+import Modal from 'react-modal';
 import emailjs from 'emailjs-com';
 
-export const Pontun = () => {
+export const Pontun = ({ isOpen, closeModal}) => {
     const form = useRef();
     const [selectedName, setSelectedName] = useState('');
     const [selectedPhone, setSelectedPhone] = useState('');
@@ -82,9 +83,6 @@ export const Pontun = () => {
             alert('Vinsamlegast veldu botn');
             return;
         }
-        console.log(selectedName);
-        console.log(e.target);
-        console.log(form.current);
         emailjs.sendForm('service_4cyj94b', 'template_2hd3vbb', e.target, 'UdDb_4aZTGAoRCG6R')
             .then((result) => {
                 console.log(result.text);
@@ -95,6 +93,12 @@ export const Pontun = () => {
         form.current.reset();
         };
     return (
+            <Modal
+            isOpen={isOpen}
+            onRequestClose={closeModal}
+            contentLabel="Example Modal"
+            >
+            <button onClick={closeModal}>Close Modal</button>
             <div className="pontun_container">
             <form id="email-form" className="text_container" onSubmit={handleSubmit} ref={form} >
                 <label htmlFor="Nafn">Nafn* </label>
@@ -205,6 +209,7 @@ export const Pontun = () => {
                     </div>
                   </form>
                 </div>
+                </Modal>
     )
 }
 

@@ -103,3 +103,17 @@
     margin-top: 20px;
 }
 
+.Panta_button {
+    display: flex;
+    width: 200px;
+    height: 50px;
+    border: 1px solid white;
+    background-color: rgb(194, 153, 121, 100);
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    font-family: 'Cinzel', 'serif';
+    font-size: 17px;
+}
+
