@@ -25,8 +25,10 @@ jobs:
           node-version: '14' # Use the appropriate Node.js version
       - name: Install dependencies
         run: npm install # Or yarn install
+        working-directory: ./my-app # Path to the application's root directory
       - name: Build the app
         run: npm run build # Replace with your actual build command
+        working-directory: ./my-app # Path to the application's root directory
       - name: Deploy to Azure Static Web Apps
         uses: Azure/static-web-apps-deploy@v1
         with:
