@@ -4,8 +4,7 @@ import "./styles.css";
 import heiddukaka1 from "../../resources/heidrunkaka.jpeg";
 import heiddukaka2 from "../../resources/heidrunkaka2.jpeg";
 import kransakaka from "../../resources/kranskakaka.jpeg";*/
-import Pontun_Modal from "../../components/pontun_modal";
-import { Carousel } from "../../components/carousel";
+import PontunModal from "../../components/pontun_modal";
 
 
 export const Pantanir = () => {
@@ -22,7 +21,7 @@ export const Pantanir = () => {
 
     return (
         <div className="main_container">
-            <Pontun_Modal modalIsOpen={modalIsOpen} closeModal={closeModal} />
+            <PontunModal modalIsOpen={modalIsOpen} closeModal={closeModal} />
             <div className="first_container">
                 <h1>Tertu pantanir</h1>
                 <h2>Athugið!</h2>
@@ -31,20 +30,9 @@ export const Pantanir = () => {
                 <p>Staðfestingarpóstur er alltaf sendur þegar pöntunin er móttekin.</p>
                 <button className="Panta_button" onClick={openModal}>LEGGJA INN PÖNTUN</button>
             </div>
-        <div className="pantanir_container">
-            {/* <Carousel /> */}
-        </div>
-            {/*<div className="right_container">
-                <div className="image_container">
-                    <img src={heiddukaka1} alt="cake" className="heiddukaka1"/>
-                    <img src={heiddukaka2} alt="cake" className="heiddukaka2"/>
-                    <img src={kransakaka} alt="cake" className="kransakaka"/>
-                    <img src={marsipan} alt="cake" className="marsipan"/>
-                </div>
+            <div className="pantanir_container">
+                {/* <Carousel /> */}
             </div>
-            <div className="left_container">
-                <Pontun />
-            </div>*/}
         </div>
     );
 };

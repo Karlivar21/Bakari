@@ -1,8 +1,6 @@
 import React from "react";
-import covermynd from "../../resources/covermynd.jpg";
 import { NavigationLink } from "../../components/navigation_link";
 import "./styles.css";
-import { useHref } from "react-router-dom";
 
 const Home = () => {
     return (
