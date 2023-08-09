@@ -49,7 +49,8 @@ const Home = () => {
             <div className="cover-text2-container">
                 <div className="cover-text2">
                     <h2>Veitingar fyrir öll tilefni</h2>
-                    <p>Afmæli - Brúðkaup - Nafnaveislur - Fermingarveislur - Útskriftarveislur - Erfidrykkjur</p>
+                    <p>Afmæli - Brúðkaup - Erfidrykkjur - Fermingarveislur - Nafnaveislur - Útskriftarveislur
+                    </p>
                     <div className="route_button">
                         <NavigationLink title="Panta" href="/pantanir" />
                     </div>

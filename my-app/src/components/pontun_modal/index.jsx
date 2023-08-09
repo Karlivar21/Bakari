@@ -1,14 +1,96 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 import jsondata from "../../resources/kokur.json";
 import Modal from 'react-modal';
 import "./styles.css";
+import emailjs from 'emailjs-com';
 
 const Pontun_modal = ({ modalIsOpen, closeModal}) => {
+    const form = useRef();
     const [selectedCake, setSelectedCake] = useState('');
     Modal.setAppElement('#root');
+    const [selectedName, setSelectedName] = useState('');
+    const [selectedPhone, setSelectedPhone] = useState('');
+    const [selectedEmail, setSelectedEmail] = useState('');
+    const [selectedDate, setSelectedDate] = useState('');
+    const [selectedSize, setSelectedSize] = useState('');
+    const [selectedFilling, setSelectedFilling] = useState('');
+    const [selectedBottom, setSelectedBottom] = useState('');
+
+    const handleNameChange = (event) => {
+      setSelectedName(event.target.value);
+    };
+
+    const handlePhoneChange = (event) => {
+        setSelectedPhone(event.target.value);
+    };
+
+    const handleEmailChange = (event) => {
+        setSelectedEmail(event.target.value);
+    };
+
+    const handleDateChange = (event) => {
+        setSelectedDate(event.target.value);
+    };
+
+    const handleSizeChange = (event) => {
+        setSelectedSize(event.target.value);
+    };
+
+    const handleFillingChange = (event) => {
+        setSelectedFilling(event.target.value);
+    };
+
+    const handleBottomChange = (event) => {
+        setSelectedBottom(event.target.value);
+    };
 
     const handleCakeChange = (event) => {
         setSelectedCake(event.target.value);
+    };
+
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        if (selectedName === '') {
+            alert('Vinsamlegast fylltu út nafn');
+            return;
+        }
+        if (selectedPhone === '') {
+            alert('Vinsamlegast fylltu út símanúmer');
+            return;
+        }
+        if (selectedEmail === '') {
+            alert('Vinsamlegast fylltu út netfang');
+            return;
+        }
+        if (selectedDate === '') {
+            alert('Vinsamlegast fylltu út dagsetningu');
+            return;
+        }
+        if (selectedCake === '') {
+            alert('Vinsamlegast veldu kökutegund');
+            return;
+        }
+        if (selectedSize === '') {
+            alert('Vinsamlegast veldu stærð');
+            return;
+        }
+        if (selectedCake === '1' && selectedFilling === '') {
+            alert('Vinsamlegast veldu fyllingu');
+            return;
+        }
+        if (selectedCake === '2' && selectedBottom === '' ) {
+            alert('Vinsamlegast veldu botn');
+            return;
+        }
+
+        emailjs.sendForm('service_4cyj94b', 'template_2hd3vbb', e.target, 'UdDb_4aZTGAoRCG6R')
+                .then((result) => {
+                    console.log(result.text);
+                }, (error) => {
+                    console.log(error.text);
+                });  
+            
+            form.current.reset();
     };
 
     return (    
@@ -18,29 +100,29 @@ const Pontun_modal = ({ modalIsOpen, closeModal}) => {
                 <button className="close-modal" onClick={closeModal}>X</button>
             </div>
             <div className="modal-body">
-                <form className="form_container">
+                <form className="form_container" onSubmit={handleSubmit} ref={form}>
                     <div className="left_container_form">
                         <div className="form-group">
                             <label htmlFor="name">Nafn</label>
-                            <input type="text" className="form-control" id="name"/>
+                            <input type="text" className="form-control" id="name" name="name" onChange={handleNameChange} required/>
                         </div>
                         <div className="form-group">
                             <label htmlFor="phone">Símanúmer</label>
-                            <input type="text" className="form-control" id="phone"/>
+                            <input type="text" className="form-control" id="phone" name="phone" onChange={handlePhoneChange}required/>
                         </div>
                         <div className="form-group">
                             <label htmlFor="email">Netfang</label>
-                            <input type="email" className="form-control" id="email"/>
+                            <input type="email" className="form-control" id="email" name="email"onChange={handleEmailChange}required/>
                         </div>
                         <div className="form-group-date">
                             <label htmlFor="date">Dagsetning</label>
-                            <input type="date" className="form-control" id="date"/>
+                            <input type="date" className="form-control" id="date" name="date" onChange={handleDateChange} required/>
                         </div>
                     </div>
                     <div className="right_container_form">
                         <div className="cake_version_container">
                             <label htmlFor="cake">Kökutegund: </label>
-                            <select className="koku_tegund_dropdown" id="cake" name="cake_type" onChange={handleCakeChange}>
+                            <select className="koku_tegund_dropdown" id="cake" name="cake_type" onChange={handleCakeChange} required>
                                 <option value="">VELDU TEGUND</option>
                                 {jsondata.kokur.map((item) => (
                                     <option key={item.id} value={item.name}>
@@ -62,6 +144,8 @@ const Pontun_modal = ({ modalIsOpen, closeModal}) => {
                                     <select
                                     id={`size-${item.id}`}
                                     name="cake_size"
+                                    onChange={(event) => handleSizeChange(event, item.id)}
+                                    required
                                     >
                                     <option value="">Veldu stærð</option>
                                     {item.size.map((sizeItem) => (
@@ -76,7 +160,8 @@ const Pontun_modal = ({ modalIsOpen, closeModal}) => {
                                     <label htmlFor={`fillings-${item.id}`}>Fylling:</label>
                                     <select
                                         id = {`fillings-${item.id}`}
-                                        
+                                        onChange={(event) => handleFillingChange(event, item.id)}
+                                        name="filling"
                                     >
                                     <option value="">Veldu fyllingu</option>
                                       {item.fillings.map((filling) => (
@@ -92,6 +177,8 @@ const Pontun_modal = ({ modalIsOpen, closeModal}) => {
                                         <label htmlFor={`fillings-${item.id}`}>Botn:</label>
                                         <select
                                             id = {`botnar-${item.id}`}
+                                            onChange={(event) => handleBottomChange(event, item.id)}
+                                            name="bottom"
                                         >
                                         <option value="">Veldu botn</option>
                                         {item.botnar.map((botn) => (
@@ -107,7 +194,8 @@ const Pontun_modal = ({ modalIsOpen, closeModal}) => {
                                         <label htmlFor={`fillings-${item.id}`}>smjörkrem:</label>
                                         <select
                                             id = {`smjorkrem-${item.id}`}
-                                
+                                            onChange={(event) => handleBottomChange(event, item.id)}
+                                            name="smjorkrem"
                                         >
                                         <option value="">Veldu smjörkrem</option>
                                         {item.smjorkrem.map((smjorkrem) => (
