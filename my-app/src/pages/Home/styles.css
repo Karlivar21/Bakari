@@ -166,6 +166,186 @@
     align-items: center;
 }
 
+.cover-text3-container {
+    display: flex;
+    flex-direction: column;
+    /* background-image: url('../../resources/kokur.jpg'); */
+    background-color: rgb(0, 0, 0);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.cover-text3 {
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+    height: 150px;
+    margin-top: 10px;
+}
+
+.cover-text3 h2 {
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    text-align: center;
+    font-weight: 100;
+    font-family: 'Cinzel', 'serif';
+    margin-top: 20px;
+    padding: 0;
+}
+
+.cover-text3 p {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Cinzel', 'serif';
+    margin: 0;
+    padding: 0;
+}
+
+.salat-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #837474;
+    width: 100%;
+    margin: 0;
+}
+
+.salat1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    margin: 20px;
+}
+
+.salat1 h3{
+    font-size: 30px;
+    font-weight: 100;
+    font-family: 'Cinzel', 'serif';
+    margin-top: 20px;
+    margin-bottom: 15px;
+    padding: 0;
+}
+
+.salat1 img {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    object-fit: cover;
+}
+
+.salat2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    margin: 20px;
+}
+
+.salat2 h3{
+    font-size: 30px;
+    font-weight: 100;
+    font-family: 'Cinzel', 'serif';
+    margin-top: 20px;
+    margin-bottom: 15px;
+    padding: 0;
+}
+
+.salat2 img {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    object-fit: cover;
+}
+
+.salat3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    margin: 20px;
+}
+
+.salat3 h3{
+    font-size: 30px;
+    font-weight: 100;
+    font-family: 'Cinzel', 'serif';
+    margin-top: 20px;
+    margin-bottom: 15px;
+    padding: 0;
+}
+
+.salat3 img {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    object-fit: cover;
+}
+
+.salat4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    margin: 20px;
+}
+
+.salat4 h3{
+    font-size: 30px;
+    font-weight: 100;
+    font-family: 'Cinzel', 'serif';
+    margin-top: 20px;
+    margin-bottom: 15px;
+    padding: 0;
+}
+
+.salat4 img {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    object-fit: cover;
+}
+
+.salat5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    margin: 20px;
+}
+
+.salat5 h3{
+    font-size: 30px;
+    font-weight: 100;
+    font-family: 'Cinzel', 'serif';
+    margin-top: 20px;
+    margin-bottom: 15px;
+    padding: 0;
+}
+
+.salat5 img {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    object-fit: cover;
+}
+
+
 
 
 

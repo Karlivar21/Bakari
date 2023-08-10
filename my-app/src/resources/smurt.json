@@ -7,19 +7,31 @@
         "description": "Description of Item 10"
       },
       {
-        "id": "2",
+        "id" : "2",
+        "name": "Fetaloka",
+        "images": "fetaloka.JPG",
+        "description": "Description of Item 2"
+      },
+      {
+        "id": "3",
         "name": "Klúbbsamloka",
         "images": "klubbsamloka.JPG",
         "description": "Description of Item 11"
       },
       {
-        "id": "3",
+        "id": "4",
         "name": "Pítsaloka",
         "images": "pítsaloka.JPG",
         "description": "Description of Item 3"
       },
       {
-        "id": "4",
+        "id": "5",
+        "name": "Pulledporkloka",
+        "images": "pulledpork.JPG",
+        "description": "Description of Item 5"
+      },
+      {
+        "id": "6",
         "name": "Smurð Rúnstykki",
         "images": "smurðrunstykki.JPG",
         "description": "Description of Item 4"

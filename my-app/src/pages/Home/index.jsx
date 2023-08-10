@@ -1,5 +1,10 @@
 import React from "react";
 import { NavigationLink } from "../../components/navigation_link";
+import Skinkusalat from "../../resources/salat/skinkusalat.JPG";
+import pesto from "../../resources/salat/pesto.JPG";
+import ostasalat from "../../resources/ostasalat.JPG";
+import rækjusalat from "../../resources/salat/rækjusalat.JPG";
+import tunfisk from "../../resources/salat/tunfisk.JPG";
 import "./styles.css";
 
 const Home = () => {
@@ -54,8 +59,36 @@ const Home = () => {
                     </div>
                 </div>
             </div>
+            <div className="cover-text3-container">
+                <div className="cover-text3">
+                    <h2>Brauðsalötin Okkar</h2>
+                    <p>Við bjóðum upp á fjölbreytt úrval af brauðsalatöum úr eigin eldhúsi</p>
+                </div>
+                <div className="salat-container">
+                    <div className="salat1">
+                        <h3>Skinkusalat</h3>
+                        <img src={Skinkusalat} alt="skinkusalat" />
+                    </div>
+                    <div className="salat2">
+                        <h3>Pesto</h3>
+                        <img src={pesto} alt="pesto" />
+                    </div>
+                    <div className="salat3">
+                        <h3>Ostasalat</h3>
+                        <img src={ostasalat} alt="ostasalat" />
+                    </div>
+                    <div className="salat4">
+                        <h3>Rækjusalat</h3>
+                        <img src={rækjusalat} alt="rækjusalat" />
+                    </div>
+                    <div className="salat5">
+                        <h3>Tunfisksalat</h3>
+                        <img src={tunfisk} alt="tunfisk" />
+                    </div>
+                </div>
+            </div>
         </div>
     );
   };
   
-  export default Home;
+export default Home;
