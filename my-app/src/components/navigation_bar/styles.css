@@ -71,3 +71,40 @@
 }
 
 
+.navigation-button {
+    display: none;
+  }
+  
+  
+  @media only screen and (max-width: 600px) {
+    .navigation-links {
+      display: none;
+      flex-direction: column;
+    }
+    
+    /* Display the dropdown button on smaller screens */
+    .navigation-button {
+      display: block;
+      margin-top: 60px;
+      margin-left: 40px;
+      background-color: #000000;
+      border: 1px solid #ffffff;
+      font-size: 1.5rem;
+      font-family: 'Cinzel', serif;
+      color: #ffffff;
+
+    }
+
+    .navigation-links.open {
+        display: flex;
+        flex-direction: column;
+        margin-top: 200px;
+        margin-left: 0px;
+        color: #ffffff;
+      }
+
+
+  }
+  
+
+

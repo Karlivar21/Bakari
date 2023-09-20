@@ -8,19 +8,24 @@ export const HafaSamband = () => {
             <div className="hafa-samband__form">
                 <form>
                     <div className="hafa-samband__form__header">
-                        <h1>Hafa samband</h1>
+                        <h1>HAFA SAMBAND</h1>
                     </div>
+                    <div className="white_line"></div>
                     <div className="hafa-samband__form__name">
-                        <input type="text" id="name" name="name" placeholder="Nafn" required/>
+                        <label htmlFor="name">Nafn:</label>
+                        <input type="text" id="name" name="name" required/>
                     </div>
                     <div className="hafa-samband__form__email">
-                        <input type="email" id="email" name="email" placeholder="Netfang" required/>
+                        <label htmlFor="email">Netfang:</label>
+                        <input type="email" id="email" name="email" required/>
                     </div>
                     <div className="hafa-samband__form__phone">
-                        <input type="text" id="subject" name="subject" placeholder="Símanúmer" required/>
+                        <label htmlFor="phone">Símanúmer:</label>
+                        <input type="text" id="subject" name="subject" required/>
                     </div>
                     <div className="hafa-samband__form__subject">
-                        <textarea id="message" name="message" placeholder="Skilaboð" required></textarea>
+                        <label htmlFor="subject">Skilaboð:</label>
+                        <textarea id="message" name="message" required></textarea>
                     </div>
                     <div className="send_button">
                         <button type="submit">Senda</button>
